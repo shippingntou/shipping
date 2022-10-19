@@ -134,3 +134,11 @@ table{
     padding-left:3rem;
   }
 
+.intern {
+    margin-bottom: 5rem;
+}
+
+#display-item {
+    border: none;
+    background-color: transparent;
+}
