@@ -118,3 +118,48 @@ img {
   #selective {
     cursor: pointer;
   }
+  #visit1{
+    display: none;
+    margin: 2rem;
+  }
+
+  #visit1 img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  #visit1 a{
+    color: black;
+  }
+
+  #visit2 {
+    display: none;
+  }
+  #visit2 a{
+    color: black;
+  }
+  .intern{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .intern .row {
+    margin: 2rem;
+  }
+
+  .result img{
+    max-width: 100%;
+  }
+
+  #result {
+    margin: 3rem;
+  }
+  #result h5{
+    margin: 0.5rem;
+  }
+  .result{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }

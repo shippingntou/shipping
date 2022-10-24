@@ -75,7 +75,7 @@
                                 <p id="selective" onclick="listBtn()">
                                     授課週別：111-1師資與課程（點擊顯示）▼
                                 </p>
-                                <table class="table" id="more-content"  >
+                                <table class="table" id="more-content">
                                     <thead>
                                       <tr>
                                         <th scope="col">週別</th>
@@ -191,17 +191,42 @@
                                 </p>
                                 <p>
                                     校外參訪：
-                                    <select id="select_item">
-                                        <option value="1">請選擇</option>
-                                        <option value="2">臺北港營運處</option>
-                                        <option value="3">台北港貨櫃碼頭股份有限公司</option>
+                                    <select id="select_item" onchange="select()">
+                                        <option value="none">請選擇</option>
+                                        <option value="visit1">臺北港營運處</option>
+                                        <option value="2">台北港貨櫃碼頭股份有限公司</option>
                                     </select>
-                                    <a href="https://kl.twport.com.tw/tp/" target="_blank">臺北港營運處</a>
-                                    <a href="https://www.tpct.com.tw/" target="_blank">台北港貨櫃碼頭股份有限公司</a>   (採下拉式選單)
                                 </p>
                             </div>
                               
                             <div class="col-md-2"></div>
+                            <div id="visit1" class="text-center">
+                                <h3>
+                                    <a href="https://kl.twport.com.tw/tp/" target="_blank">臺北港營運處</a> <span>2022/10/7</span>
+                                </h3>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="../科學園區照片/台北港營運處-1.JPG" alt="台北港營運處-1">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="../科學園區照片/台北港營運處-2.JPG" alt="台北港營運處-2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="visit2" class="text-center">
+                                <h3>
+                                    <a href="https://www.tpct.com.tw/" target="_blank">台北港貨櫃碼頭股份有限公司</a>
+                                </h3>
+                                
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        好像還沒有照片欸
+                                    </div>
+                                    <div class="col-md-6">
+                                        好像還沒有照片欸
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
     
